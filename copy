@@ -1,0 +1,13 @@
+<div class="contact-container">
+        <form action="" class="contact-left">
+        <div class="contact-left-titer">
+            <h1>Contact Me</h1>
+        </div>
+        <div class="contact-left-input">
+            <input type="text" name=" Name" placeholder="Your Name" class="contact-input" required>
+            <input type="text" name=" email" placeholder="Your Email id" class="contact-input" required>
+            <input type="number" name=" number" placeholder="Your Number" class="contact-input" required>
+            <textarea name="message" id="message" placeholder=" Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vedant Bakshi</title>
+    <title>Contact Form</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
@@ -21,16 +21,28 @@
         <div class="link">
             <li><a href="index.html">home</a></li>
             <li><a href="project.html">projects</a></li>
-            <li><a href="contact.html">contact</a></li></div>
+            <li class="home"><a href="contact.html">contact</a></li></div>
 
         </div>
 
     </header>
 <section>
-    <div>
-        this is contact 
+    <div class="container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="main">
+        <div class="heading">
+            <h1>Contact Me</h1>
+        </div>
+        <div class="input">
+            <input type="hidden" name="access_key" value="3397d380-98dc-40f4-bf8b-ab752599aa4c">
+            <div class="bob"><p>Name</p><input type="text" name=" Name" placeholder="Your Name" class="contact-input" required></div>
+            <div class="bob"><p>Email id</p><input type="text" name=" email" placeholder="Your Email id" class="contact-input" required></div>
+            <div class="bob"><p>Mobile.no</p><input type="text" name=" number" placeholder="Your Number" class="contact-input" required></div>
+            <div class="bob"><p>Message</p><textarea name="message" id="message" placeholder=" Your Message" required></textarea></div>
+            <button type="submit" class="button">Submit</button>
+        </div>
+        </form>
     </div>
-
+   
 </section>
 <footer>
     <div class="box">

@@ -41,6 +41,7 @@ header{
     text-decoration-color:yellowgreen;
     text-decoration-thickness: 5px;
 }
+
 .link {
     display: flex;
     flex: 1;
@@ -65,6 +66,9 @@ header{
    transition: 0.4s;
     cursor: pointer;
 }
+.home a{
+    color: darkcyan;
+}
 @media(max-width:1000px){
     body{width: auto;}
     header{display: grid;
@@ -74,6 +78,104 @@ header{
 section{
     height: 135vh;
 }
+.project1 h1{
+    text-align: center;
+    font-size: 40px;
+    color:darkcyan
+}
+.info1{
+    display: flex;
+    margin: 50px;
+    font-size: 30px;
+}
+.pro1{
+    margin-left: 20px;
+    text-align: left;
+}
+.info1 img{
+    border-radius: 10px;
+    border: 5px solid white;
+}
+.project2 h1{
+    text-align: center;
+    font-size: 40px;
+    color: darkcyan;
+}
+.info2{
+    display: flex;
+    margin: 50px;
+    font-size: 30px;
+}
+.pro2{
+    margin-left: 20px;
+    text-align: left;
+}
+.info2 img{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+@media(max-width:1020px) {
+    section{margin-top: 100px;
+    height: 170vh;}
+    .info1 , .info2{
+        display: grid;
+    }
+    .info1 img , .info2 img{
+        display: flex;
+        justify-self: center;
+    }
+
+    
+}
+@media (max-width:750px) {
+    section{
+        height: 200vh;
+    }
+    .info1 , .info2{
+        justify-content: center;
+    }
+    section h1{
+        padding: 10px;
+    }
+}
+@media (max-width:610px) {
+    section{
+        height: 250vh;
+    }
+    .project1 h1 , .project2 h1{
+        font-size: 20px;
+    }
+    .info1 , .info2{
+        justify-self: center
+
+    }
+    
+}
+@media (max-width:500px) {
+     .info1 img{
+        height: 100px;
+    }
+    .info1 , .info2{
+        font-size: 25px;
+    }
+
+
+}
+@media (max-width:460px){
+    section{
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+    .info2 img {
+        padding: 0;
+    }
+    .info1 , .info2{
+        font-size: 20px;
+    }
+
+}
+
 
 
 

@@ -67,6 +67,9 @@ header{
    transition: 0.4s;
     cursor: pointer;
 }
+.home a{
+    color: darkcyan;
+}
 @media(max-width:1000px){
     body{width: auto;
     height: auto;}
