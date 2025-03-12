@@ -6,7 +6,7 @@
 
 }
 body {
-    background-image: url("background.jpg");
+    background-image: url("/img/background.jpg");
     background-position: left;
     color: white;
     height: 185vh;
@@ -32,7 +32,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(text.jpg);
+    background-image: url("/img/text.jpg");
     background-position: right;
     background-size: 100% 100%;
     color: transparent;
@@ -81,7 +81,7 @@ section{
 
 /* this css is for footer */
 footer{
-    background-image: url("back1.jpg");
+    background-image: url("/img/back1.jpg");
     background-position: center;
     border-color: white;
     border-width: 10px;
@@ -106,17 +106,31 @@ footer{
 .social{
     display: flex;
     list-style-type: none;
-    height: 80px;
     justify-content:center;
     align-items: center;
 }
 .social img{
-    margin: 35px;
-    margin: 15px;
+    
+    object-fit: cover;
+    
 }
-.social li{
+.social a{
     display: flex;
     justify-content: center;
+    padding: 15px;
+    background-color: green;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+.social a:hover{
+    background-color: darkcyan;
+    transform: none;
+    transition: 0.4s;
+     cursor: pointer;
+
+
 }
 .share {
     height: 50px;
@@ -155,7 +169,7 @@ footer{
     font-size: 15px;
     height: 50px;
     align-items: center;
-    background-image: url(background.jpg);
+    background-image: url("/img/background.jpg");
     background-position: left;
     color: white;
     font-size: 35px;
