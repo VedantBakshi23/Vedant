@@ -24,9 +24,7 @@ header{
     height: 13vh;
     display: flex;
     list-style-type: none;
-    margin-top: 10px;
-    top: 0;
-    
+    margin-top: 10px
 }
 .head{
     font-size: 50px;
@@ -68,87 +66,14 @@ header{
     cursor: pointer;
 }
 @media(max-width:1000px){
-    body{width: auto;
-    height: auto;}
+    body{width: auto;}
     header{display: grid;
     }
-    section h1{
-        display: flex;
-        justify-self: center;
     }
-    }
-@media(max-width:800px) {
-    .sec1{
-        display: block;
-
-    }
-    
-}
 /* this css is for section */
 section{
     height: 135vh;
-    margin-top:50px ;
-    font-size: 40px;
-    text-align:left;
-    padding: 20px;
 }
-section h1{
-font-size: 80px;
-display: flex;
-text-align: center;
-}
-.sec1{
-    display: flex;
-    margin-top: 50px;
-}
-.sec2{
-    margin-top: 50px;
-}
-.sec3{
-    margin-top: 50px;
-    display: flex;
-}
-.sec3 a{
-    text-decoration: none;
-    color: gray;
-}
-section h1{
-    color: darkgrey;
-    padding: 20px;
-    align-self: center;
-}
-@media(max-width:900px) {
-    section{
-        height: auto;
-        font-size: 30px;
-    }
-@media(max-width:600px) {
-    .sec3{
-        display: grid;
-    }
-    .sec3 img{
-        display: flex;
-        justify-self: center
-    }
-    section h1{
-        display: flex;
-        justify-content: center;
-    }
-    
-}
-@media(max-width:400px) {
-    section{
-        font-size: 20px;
-    }
-    section h1{
-        font-size: 50px;
-    }
-    
-}
-    
-}
-
-
 
 
 
