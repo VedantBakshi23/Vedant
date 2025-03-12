@@ -6,7 +6,7 @@
 
 }
 body {
-    background-image: url("/img/background.jpg");
+    background-image: url("img/background.jpg");
     background-position: left;
     color: white;
     height: 185vh;
@@ -32,7 +32,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/img/text.jpg");
+    background-image: url("img/text.jpg");
     background-position: right;
     background-size: 100% 100%;
     color: transparent;
@@ -81,7 +81,7 @@ section{
 
 /* this css is for footer */
 footer{
-    background-image: url("/img/back1.jpg");
+    background-image: url("img/back1.jpg");
     background-position: center;
     border-color: white;
     border-width: 10px;
@@ -169,7 +169,7 @@ footer{
     font-size: 15px;
     height: 50px;
     align-items: center;
-    background-image: url("/img/background.jpg");
+    background-image: url("img/background.jpg");
     background-position: left;
     color: white;
     font-size: 35px;
