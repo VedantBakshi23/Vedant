@@ -81,7 +81,7 @@ section{
 .project1 h1{
     text-align: center;
     font-size: 40px;
-    color:darkcyan
+    color:darkgray
 }
 .info1{
     display: flex;
@@ -99,7 +99,7 @@ section{
 .project2 h1{
     text-align: center;
     font-size: 40px;
-    color: darkcyan;
+    color: darkgray;
 }
 .info2{
     display: flex;
