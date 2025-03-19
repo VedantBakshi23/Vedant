@@ -153,7 +153,11 @@ section{
 }
 @media (max-width:500px) {
      .info1 img{
-        height: 100px;
+        height: 170px;
+        margin-bottom: 50px;
+    }
+    .info2 img{
+        margin-bottom: 50px;
     }
     .info1 , .info2{
         font-size: 25px;
