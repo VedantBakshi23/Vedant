@@ -76,7 +76,7 @@ header{
     }
 /* this css is for section */
 section{
-    height: 135vh;
+    height: 180vh;
 }
 .project1 h1{
     text-align: center;
@@ -114,13 +114,35 @@ section{
     padding-left: 100px;
     padding-right: 100px;
 }
+.info3{
+    display: flex;
+    margin: 50px;
+    font-size: 30px;
+}
+.pro3{
+    margin-left: 20px;
+    text-align: left;
+}
+.info3 img{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.project3 h1{
+    text-align: center;
+    font-size: 40px;
+    color: darkgray;
+}
+.info3 img{
+    border-radius: 10px;
+    border: 5px solid white;
+}
 @media(max-width:1020px) {
     section{margin-top: 100px;
-    height: 170vh;}
-    .info1 , .info2{
+    height: 500vh;}
+    .info1 , .info2 , .info3{
         display: grid;
     }
-    .info1 img , .info2 img{
+    .info1 img , .info2 img , .info3 img{
         display: flex;
         justify-self: center;
     }
@@ -174,12 +196,45 @@ section{
     .info2 img {
         padding: 0;
     }
-    .info1 , .info2{
+    .info3 img{
+        margin: 0;
+        margin-bottom: 10vh;
+        height: 150px;
+    }
+    .info1 , .info2 , .info3{
         font-size: 20px;
+        text-align: center;
     }
 
-}
+    }
 
+@media (max-width:1200px){
+    section{
+        height: 200vh;
+    }
+   
+    
+}
+@media (max-width:1080px){
+    section{
+        height: 250vh;
+    }
+    
+    
+}
+@media (max-width:900px){
+    section{
+        height: 300vh;
+    }
+    
+}
+@media (max-width:760px){
+    section{
+        height: 350vh;
+        background-position: center;
+    }
+    
+}
 
 
 
