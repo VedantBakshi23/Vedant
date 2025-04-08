@@ -127,7 +127,7 @@ section{
     margin-left: 100px;
     margin-right: 100px;
 }
-.project3 h1{
+.project3 h4{
     text-align: center;
     font-size: 40px;
     color: darkgray;
@@ -232,6 +232,15 @@ section{
     section{
         height: 350vh;
         background-position: center;
+    }
+    
+}
+@media (max-width:400px){
+    section{
+        height: 320vh;
+    }
+    .project3 h4{
+        font-size: 23px;
     }
     
 }
